@@ -1,14 +1,19 @@
 import React from "react";
+import "./Works.css";
 
 const Works = () => {
   const works = [
     {
-      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184032/loki_mzm9rb.png",
-      text: "It was a freelance project for a client. He wanted to print it on a mobile cover.",
+      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1726135184/Untitled-1_rqngok.png",
+      text: "Thumbnail Design for Client",
     },
     {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184028/khn_ltuwru.jpg",
       text: "Worked in Metropolitan city as a freelancer, creating many infographics for their social media and printing purposes.",
+    },
+    {
+      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1726136674/logo_ihmbcs.png",
+      text: "Logo Designed for Greenify, A Tree plantation abhiyan.",
     },
     {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184033/7th_fxh2te.jpg",
@@ -41,23 +46,16 @@ const Works = () => {
   ];
 
   return (
-    <div className="p-8 bg-black">
-      <h2 className="text-center text-2xl font-bold text-white mb-8">Works</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="works-container">
+      <h2 className="works-heading">Works</h2>
+      <div className="works-grid">
         {works.map((work, index) => (
-          <div
-            key={index}
-            className="relative overflow-hidden rounded-lg shadow-lg group"
-          >
-            <img
-              src={work.img}
-              alt={`Work ${index + 1}`}
-              className="w-full h-full object-contain transition-transform duration-300 transform group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-black bg-opacity-70 flex items-center justify-center opacity-0 transition-opacity duration-300 group-hover:opacity-100 p-4">
-              <p className="text-white text-center text-sm">{work.text}</p>
-            </div>
-          </div>
+          <figure key={index} className="works-item">
+            <img src={work.img} alt={`Work ${index + 1}`} />
+            <figcaption className="overlay">
+              <p>{work.text}</p>
+            </figcaption>
+          </figure>
         ))}
       </div>
     </div>

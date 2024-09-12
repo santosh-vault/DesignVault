@@ -1,0 +1,61 @@
+/* Container styles */
+.works-container {
+    padding: 2rem;
+    background-color: black;
+  }
+  
+  /* Heading styles */
+  .works-heading {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2rem;
+  }
+  
+  /* Masonry layout using columns */
+  .works-grid {
+    column-count: 3; /* 3 columns for the layout */
+    column-gap: 1rem;
+  }
+  
+  /* Individual work item */
+  .works-item {
+    margin-bottom: 1rem;
+    break-inside: avoid; /* Avoid breaking inside the column */
+    position: relative;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image styling */
+  .works-item img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+  }
+  
+  /* Overlay styles */
+  .works-item .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .works-item:hover .overlay {
+    opacity: 1;
+  }
+  
+  /* Text inside overlay */
+  .works-item .overlay p {
+    color: white;
+    text-align: center;
+    font-size: 0.875rem;
+  }
+  
