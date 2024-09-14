@@ -25,6 +25,7 @@ const Works = () => {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1726136674/logo_ihmbcs.png",
       text: "Logo Designed for Greenify, A Tree plantation abhiyan.",
     },
+
     {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184033/7th_fxh2te.jpg",
       text: "While working at Aaryan Production, I created many social media posts for Luxury Lights.",
@@ -32,6 +33,10 @@ const Works = () => {
     {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1726160591/18001782_jd560e.png",
       text: "A logo design for greenify, a tree plantation project",
+    },
+    {
+      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1726283536/thumbnail_vbdnwe.png",
+      text: "Thumbnail Deisgn For youtube",
     },
     {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184033/bird_jqn30m.jpg",
