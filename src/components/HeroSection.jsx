@@ -6,7 +6,7 @@ const HeroSection = () => {
     <section className="hero">
       <div className="hero-content">
         <h1 className="hero-title">
-          We design <br /> beautiful designs and <span>effective logos</span>
+          We create <br /> beautiful designs and <span>creative logos</span>
         </h1>
         <p className="hero-subtitle">Transform your ideas into reality</p>
         <div className="hero-buttons">

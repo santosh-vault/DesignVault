@@ -1,27 +1,23 @@
 .hero {
   text-align: center;
   padding: 100px 20px;
-  color: white; /* Ensure text stands out */
+  color: white;
 }
 
 .hero-content {
-  background: url('https://res.cloudinary.com/dvggalwfd/image/upload/v1726130524/cool_w8ryr1.png') no-repeat center center; 
-  background-size: cover; 
+  background: url('https://res.cloudinary.com/dvggalwfd/image/upload/v1726130524/cool_w8ryr1.png') no-repeat center center;
+  background-size: cover;
   height: 50vh;
   margin: 0 auto;
   padding: 20px;
-
-
 }
-
-
 
 .hero-title {
   font-size: 48px;
   font-weight: 600;
   line-height: 1.2;
   margin-top: 200px;
-  font-family: 'Helvetica Neue', sans-serif; 
+  font-family: 'Helvetica Neue', sans-serif;
 }
 
 .hero-title span {
@@ -32,8 +28,8 @@
 .hero-subtitle {
   margin: 20px 0;
   font-size: 18px;
-  color: #eee; /* Light gray for better contrast */
-  font-family: 'Arial', sans-serif; /* Clean font */
+  color: #eee;
+  font-family: 'Arial', sans-serif;
 }
 
 .hero-buttons {
@@ -48,8 +44,8 @@
   border: none;
   cursor: pointer;
   font-size: 16px;
-  border-radius: 5px; /* Rounded buttons */
-  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .btn-primary {
@@ -64,9 +60,67 @@
 }
 
 .btn-primary:hover {
-  background-color: rgb(141, 0, 184); /* Hover effect for primary button */
+  background-color: rgb(141, 0, 184);
 }
 
 .btn-secondary:hover {
-  background-color: rgba(255, 255, 255, 0.2); /* Hover effect for secondary button */
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .hero-content {
+    height: 40vh; /* Adjust height for tablets */
+  }
+
+  .hero-title {
+    font-size: 36px; /* Reduce title size for smaller screens */
+    margin-top: 100px; /* Adjust spacing */
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px;
+  }
+
+  .btn-primary, .btn-secondary {
+    font-size: 14px;
+    padding: 10px 20px; /* Smaller button size */
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 60px 10px; /* Reduce padding for mobile */
+  }
+
+  .hero-content {
+    height: 30vh; /* Smaller height for mobile */
+  }
+
+  .hero-title {
+    font-size: 28px; /* Further reduce title size */
+    margin-top: 50px;
+  }
+
+  .hero-subtitle {
+    font-size: 14px;
+  }
+
+  .hero-buttons {
+    gap: 5px; /* Smaller gap between buttons */
+  }
+
+  .btn-primary, .btn-secondary {
+    font-size: 12px;
+    padding: 8px 16px; /* Even smaller buttons for mobile */
+  }
 }

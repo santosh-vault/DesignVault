@@ -1,61 +1,107 @@
 /* Container styles */
 .works-container {
-    padding: 2rem;
-    background-color: black;
-  }
-  
-  /* Heading styles */
-  .works-heading {
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
-    margin-bottom: 2rem;
-  }
-  
-  /* Masonry layout using columns */
+  padding: 2rem;
+  background-color: black;
+}
+
+/* Heading styles */
+.works-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+/* Masonry layout using columns */
+.works-grid {
+  column-count: 3; /* Default: 3 columns for larger screens */
+  column-gap: 1rem;
+}
+
+/* Individual work item */
+.works-item {
+  margin-bottom: 1rem;
+  break-inside: avoid; /* Avoid breaking inside the column */
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Image styling */
+.works-item img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+
+/* Overlay styles */
+.works-item .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.works-item:hover .overlay {
+  opacity: 1;
+}
+
+/* Text inside overlay */
+.works-item .overlay p {
+  color: white;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+/* Responsive adjustments */
+
+/* For medium screens (tablets) */
+@media (max-width: 1024px) {
   .works-grid {
-    column-count: 3; /* 3 columns for the layout */
-    column-gap: 1rem;
+    column-count: 2; /* Reduce to 2 columns */
   }
-  
-  /* Individual work item */
+
+  .works-heading {
+    font-size: 1.25rem; /* Slightly smaller heading */
+  }
+}
+
+/* For small screens (mobile phones) */
+@media (max-width: 768px) {
+  .works-grid {
+    column-count: 1; /* Single column layout */
+  }
+
+  .works-heading {
+    font-size: 1.1rem; /* Further reduce heading size */
+  }
+
   .works-item {
-    margin-bottom: 1rem;
-    break-inside: avoid; /* Avoid breaking inside the column */
-    position: relative;
-    overflow: hidden;
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1.5rem; /* Increase spacing between items */
   }
-  
-  /* Image styling */
-  .works-item img {
-    width: 100%;
-    height: auto; /* Maintain aspect ratio */
-    display: block;
-  }
-  
-  /* Overlay styles */
-  .works-item .overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.7);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-  }
-  
-  .works-item:hover .overlay {
-    opacity: 1;
-  }
-  
-  /* Text inside overlay */
+
   .works-item .overlay p {
-    color: white;
-    text-align: center;
-    font-size: 0.875rem;
+    font-size: 0.75rem; /* Smaller font for overlay text */
   }
-  
+}
+
+@media (max-width: 480px) {
+  .works-container {
+    padding: 1rem; /* Reduce container padding */
+  }
+
+  .works-heading {
+    font-size: 1rem; 
+    margin-top: 2rem;
+  }
+
+  .works-item .overlay p {
+    font-size: 0.7rem; /* Smaller overlay text */
+  }
+}

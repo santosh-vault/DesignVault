@@ -1,21 +1,30 @@
 .navbar {
   display: flex;
   align-items: center;
+  justify-content: space-between; /* Ensure space between items */
   padding: 10px 20px;
   color: white;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+}
+
+.navbar-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 20px;
 }
 
 .nav-items {
   list-style-type: none;
   display: flex;
-  
+  flex-wrap: wrap;
 }
 
 .nav-items li {
-  margin: 0 10px; 
+  margin: 0 10px;
   font-weight: 500;
 }
 
+/* Ensure that left and right items adjust for responsiveness */
 .nav-items.left {
   margin-right: auto;
 }
@@ -24,8 +33,39 @@
   margin-left: auto;
 }
 
-.navbar-logo {
-  font-size: 2rem;
-  font-weight: bold;
-  margin: 0 20px; 
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack navbar items vertically */
+    padding: 10px;
+  }
+
+  .navbar-logo {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+
+  .nav-items {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .nav-items li {
+    margin: 5px; /* Reduce margin between nav items on smaller screens */
+    font-size: 1rem; /* Adjust font size for better visibility */
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .navbar-logo {
+    font-size: 1.5rem;
+  }
+
+  .nav-items li {
+    margin: 5px 0; /* Stack items vertically with some space */
+  }
 }
