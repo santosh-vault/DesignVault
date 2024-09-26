@@ -27,11 +27,6 @@ const Works = () => {
     },
 
     {
-      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1726136674/logo_ihmbcs.png",
-      text: "Logo Designed for Greenify, A Tree plantation abhiyan.",
-    },
-
-    {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1726283536/thumbnail_vbdnwe.png",
       text: "Thumbnail Deisgn For youtube",
     },
@@ -39,10 +34,7 @@ const Works = () => {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1726591975/FlyerMockup_y5x3lt.png",
       text: "A Beautiful Flyer for visit nepal.",
     },
-    {
-      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184033/7th_fxh2te.jpg",
-      text: "While working at Aaryan Production, I created many social media posts for Luxury Lights.",
-    },
+
     {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184033/bird_jqn30m.jpg",
       text: "This is one of my favorite photo manipulations.",
@@ -65,12 +57,20 @@ const Works = () => {
       text: "A mobile cover design.",
     },
     {
-      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184028/parsa_uj94wo.jpg",
-      text: "While working at Aaryan Production, I collaborated with Beatles to design social media posts.",
+      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1727319843/wai_wai_noodles-02_jxwy2d.jpg",
+      text: "I redesigned popular nepali noodle brand wai wai in way own style, to make it more modern..",
     },
     {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184033/mero_v0k7t3.jpg",
       text: "A demo of an ID card designed for Shabda Sanchar.",
+    },
+    {
+      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184033/7th_fxh2te.jpg",
+      text: "While working at Aaryan Production, I created many social media posts for Luxury Lights.",
+    },
+    {
+      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184028/parsa_uj94wo.jpg",
+      text: "While working at Aaryan Production, I collaborated with Beatles to design social media posts.",
     },
   ];
 
