@@ -34,6 +34,10 @@ const Works = () => {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1726591975/FlyerMockup_y5x3lt.png",
       text: "A Beautiful Flyer for visit nepal.",
     },
+    {
+      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184032/leather_ylcyus.jpg",
+      text: "I designed a logo for the popular Nepali online media, Shabda Sanchar.",
+    },
 
     {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184033/bird_jqn30m.jpg",
@@ -43,10 +47,7 @@ const Works = () => {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184032/bit_o6eqri.png",
       text: "My college mate wanted a wallpaper related to Bitcoin. A freelance work.",
     },
-    {
-      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184032/leather_ylcyus.jpg",
-      text: "I designed a logo for the popular Nepali online media, Shabda Sanchar.",
-    },
+
     {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1726305854/banner_e2cf30.jpg",
       text: "A channelart for gaming youtube channel.",
@@ -60,13 +61,18 @@ const Works = () => {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1727319843/wai_wai_noodles-02_jxwy2d.jpg",
       text: "I redesigned popular nepali noodle brand wai wai in way own style, to make it more modern..",
     },
+
+    {
+      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1727541660/miles_morales_tjte8l.png",
+      text: "A poster that can be used as wallpaper, created using adobe photoshop.",
+    },
     {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184033/mero_v0k7t3.jpg",
       text: "A demo of an ID card designed for Shabda Sanchar.",
     },
     {
-      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184033/7th_fxh2te.jpg",
-      text: "While working at Aaryan Production, I created many social media posts for Luxury Lights.",
+      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1727541314/cat_aumrg6.jpg",
+      text: "Illustration of a cat, designed to create a sticker.",
     },
     {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184028/parsa_uj94wo.jpg",
