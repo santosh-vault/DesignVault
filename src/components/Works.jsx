@@ -8,8 +8,12 @@ const Works = () => {
       text: "A Socail media Post",
     },
     {
-      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1726135184/Untitled-1_rqngok.png",
+      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1728282970/thumbnai_l_a79if4.png",
       text: "Thumbnail Design for Client",
+    },
+    {
+      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1728282990/shambhala_smcc9w.png",
+      text: "I Redesignerd Sambhala Movie poster.",
     },
 
     {
