@@ -4,6 +4,10 @@ import "./Works.css";
 const Works = () => {
   const works = [
     {
+      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1728959550/AD_ms6vjs.png",
+      text: "We Provide Graphics Design Services.",
+    },
+    {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1726160589/sony_cdujyb.png",
       text: "A Socail media Post",
     },
