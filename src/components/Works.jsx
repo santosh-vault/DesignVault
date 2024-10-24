@@ -8,6 +8,10 @@ const Works = () => {
       text: "We Provide Graphics Design Services.",
     },
     {
+      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1729786648/DAMI_PACKAGE_lswpjh.png",
+      text: "A Package design for a Dami Chocolate.",
+    },
+    {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1726160589/sony_cdujyb.png",
       text: "A Socail media Post",
     },
@@ -15,6 +19,11 @@ const Works = () => {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1728282970/thumbnai_l_a79if4.png",
       text: "Thumbnail Design for Client",
     },
+    {
+      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1729786701/kukur_tihar_new_xs32o9.png",
+      text: "Kukur Tihar",
+    },
+
     {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1728282990/shambhala_smcc9w.png",
       text: "I Redesignerd Sambhala Movie poster.",
