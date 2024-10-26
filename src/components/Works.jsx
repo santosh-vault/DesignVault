@@ -35,6 +35,10 @@ const Works = () => {
     },
 
     {
+      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1729911786/dipawali_mldwoz.png",
+      text: "Laxmi Pooja Post for DIPAWALI.",
+    },
+    {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184028/khn_ltuwru.jpg",
       text: "Worked in Metropolitan city as a freelancer, creating many infographics for their social media and printing purposes.",
     },
@@ -66,11 +70,6 @@ const Works = () => {
     },
 
     {
-      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1726305854/banner_e2cf30.jpg",
-      text: "A channelart for gaming youtube channel.",
-    },
-
-    {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184030/poster_rt3cpy.jpg",
       text: "A mobile cover design.",
     },
@@ -91,6 +90,11 @@ const Works = () => {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1727541314/cat_aumrg6.jpg",
       text: "Illustration of a cat, designed to create a sticker.",
     },
+    {
+      img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1726305854/banner_e2cf30.jpg",
+      text: "A channelart for gaming youtube channel.",
+    },
+
     {
       img: "https://res.cloudinary.com/dvggalwfd/image/upload/v1722184028/parsa_uj94wo.jpg",
       text: "While working at Aaryan Production, I collaborated with Beatles to design social media posts.",
