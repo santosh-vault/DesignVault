@@ -1,0 +1,34 @@
+/* Filter Container */
+.filter-container {
+  text-align: center;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+/* Filter Buttons */
+.filter-button {
+  background: linear-gradient(90deg, #1e90ff, #00bcd4);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.filter-button.active {
+  background: linear-gradient(90deg, #00bcd4, #1e90ff);
+  color: black;
+  box-shadow: 0 4px 12px rgba(0, 188, 212, 0.5);
+  transform: scale(1.1);
+}
+
+.filter-button:hover {
+  opacity: 0.9;
+  transform: scale(1.05);
+}

@@ -1,0 +1,108 @@
+.ui-projects-container {
+  padding: 2rem;
+  background-color: black;
+}
+
+/* Heading styles */
+.ui-projects-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+/* Masonry layout using columns */
+.ui-projects-grid {
+  column-count: 3; /* Default: 3 columns for larger screens */
+  column-gap: 1rem;
+}
+
+/* Individual project item */
+.ui-project-item {
+  margin-bottom: 1rem;
+  break-inside: avoid; /* Avoid breaking inside the column */
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: block;
+  text-decoration: none;
+}
+
+/* Image styling */
+.ui-project-item img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio */
+  display: block;
+}
+
+/* Overlay styles */
+.ui-project-item .overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.ui-project-item:hover .overlay {
+  opacity: 1;
+}
+
+/* Text inside overlay */
+.ui-project-item .overlay p {
+  color: white;
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+/* Responsive adjustments */
+
+/* For medium screens (tablets) */
+@media (max-width: 1024px) {
+  .ui-projects-grid {
+    column-count: 2; /* Reduce to 2 columns */
+  }
+
+  .ui-projects-heading {
+    font-size: 1.25rem; /* Slightly smaller heading */
+  }
+}
+
+/* For small screens (mobile phones) */
+@media (max-width: 768px) {
+  .ui-projects-grid {
+    column-count: 1; /* Single column layout */
+  }
+
+  .ui-projects-heading {
+    font-size: 1.1rem; /* Further reduce heading size */
+  }
+
+  .ui-project-item {
+    margin-bottom: 1.5rem; /* Increase spacing between items */
+  }
+
+  .ui-project-item .overlay p {
+    font-size: 0.75rem; /* Smaller font for overlay text */
+  }
+}
+
+@media (max-width: 480px) {
+  .ui-projects-container {
+    padding: 1rem; /* Reduce container padding */
+  }
+
+  .ui-projects-heading {
+    font-size: 1rem; 
+    margin-top: 2rem;
+  }
+
+  .ui-project-item .overlay p {
+    font-size: 0.7rem; /* Smaller overlay text */
+  }
+}
